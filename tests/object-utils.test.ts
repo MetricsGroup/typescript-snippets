@@ -3,7 +3,7 @@ import { ObjectUtils } from '../src/object-utils';
 describe('ObjectUtils', () => {
   describe('test arrayObjectsToObject function', () => {
     let testObjArray: any[];
-    const keyId: string = 'id';
+    const keyId = 'id';
 
     beforeEach(() => {
       testObjArray = [
