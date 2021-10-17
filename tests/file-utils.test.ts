@@ -8,7 +8,7 @@ import { FileUtils } from '../src/file-utils';
 describe('FileUtils', () => {
   describe('saveJsonToFile', () => {
     let data: any;
-    const path: string = 'some/test/path';
+    const path = 'some/test/path';
 
     beforeEach(() => {
       // Clear any previous calls
